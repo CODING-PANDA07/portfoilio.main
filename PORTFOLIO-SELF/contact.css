@@ -1,0 +1,376 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #D0EFB1;
+}
+/* navbar */
+
+.nav {
+  display: flex;
+  background-color: #B3D89C;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  box-shadow: 1px 4px 20px 2px #92b07f;
+  position: sticky;
+}
+
+.nav-text {
+  display: flex;
+  background-color: #B3D89C;
+  height: 40px;
+  align-items: center;
+  margin-right: 15%;
+  padding-right: 15px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.square {
+  height: 15px;
+  width: 15px;
+  background-color:#45553b;
+  margin-right: 10px;
+
+}
+
+#name {
+  font-weight: bold;
+  font-size: xx-large;
+  color: black;
+  background-color: #B3D89C;
+}
+
+#post {
+  font-size: x-large;
+  padding-left: 8px;
+  font-weight: 400;
+  color: black;
+  background-color: #B3D89C;
+}
+
+.nav-ribbon {
+  display: flex;
+  background-color: #B3D89C;
+  width: 25%;
+  padding-left: 200px;
+  margin-right: 80px;
+  margin-left: 50px;
+  justify-content: space-between;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#about {
+
+  margin-right: 12px;
+  padding: 25px;
+  background-color: #B3D89C;
+  color:black ;
+  text-decoration: none;
+  font-weight:400;
+}
+#about:hover{
+  
+  color: #45553b;
+}
+
+#resume {
+  margin-right: 12px;
+  padding: 25px;
+  background-color: #B3D89C;
+  color:black ;
+  text-decoration: none;
+  font-weight:400;
+}
+
+#resume:hover{
+  color: #45553b;
+}
+#project {
+  margin-right: 12px;
+  padding: 25px;
+  background-color: #B3D89C;
+  color:black ;
+  text-decoration: none;
+  font-weight:400;
+}
+#project:hover{
+  color: #45553b;
+}
+#contact {
+
+  padding: 25px;
+  background-color: #B3D89C;
+  color:#45553b ;
+  text-decoration: none;
+  font-weight:400;
+}
+#contact:hover{
+  color: #45553b;
+  color: black;
+}
+/* main */
+
+.main{
+  background-color: #D0EFB1;
+  display: flex;
+  height:150vh;
+  width: 98.8vw;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+main .title{
+  padding:40px;
+  margin-top: 30px;
+  background-color: #D0EFB1;
+  display: flex;
+  align-items: center;
+}
+main .title h2{
+font-size: xxx-large;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title.square {
+  height: 50px;
+  width: 50px;
+  background-color:#45553b;
+  margin-right: 15px;
+  padding-left: 8px;
+  padding-top: 8px;
+  justify-items: center;
+}
+
+.contact-form{
+  display: flex;
+  background-color: white;
+  height: 95vh;
+  width: 38vw;
+  margin-top: 40px;
+  flex-direction: column;
+  box-shadow:0px 1px 20px 5px #92b07f;
+  border-radius: 10px;
+}
+.customer-name{
+  display: flex;
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  justify-content: space-around;
+  padding-top: 30px;
+  margin-top: 20px;
+}
+#first{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  background-color: white;
+}
+#first h3{
+  font-size: large;
+  margin-bottom: 25px;
+  font-weight: 300;
+  background-color: white;
+}
+.firstname{
+  border: none;
+  border-bottom: 3px solid #45553b;
+  background-color: white;
+  height: 30px;
+}
+#last{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  background-color: white;
+}
+#last h3{
+  font-size: large;
+  margin-bottom: 25px;
+  font-weight: 300;
+  background-color: white;
+}
+.lastname{
+  border: none;
+  border-bottom: 3px solid #45553b;
+  background-color: white;
+  height: 30px;
+}
+
+.forms{
+  display: flex;
+  flex-direction: column;
+  height: 450px ;
+  width: 100%;
+  background-color: white;
+
+}
+/* email */
+.email{
+  width: 90%;
+  height: 80px;
+  margin: 30px;
+  background-color: white;
+}
+.email h3{
+  font-size: large;
+  margin-bottom: 25px;
+  font-weight: 300;
+  background-color: white;
+}
+.email1{
+  border: none;
+  border-bottom: 3px solid #45553b;
+  background-color: white;
+  height: 30px;
+  width: 100%;
+}
+/* subject */
+.subject{
+  width: 90%;
+  height: 80px;
+  margin: 30px;
+  background-color: white;
+}
+.subject h3{
+  font-size: large;
+  margin-bottom: 25px;
+  font-weight: 300;
+  background-color: white;
+}
+.sub1{
+  border: none;
+  border-bottom: 3px solid #45553b;
+  background-color: white;
+  height: 30px;
+  width: 100%;
+}
+/* message */
+.message{
+  width: 90%;
+  height: 110px;
+  margin: 30px;
+  background-color: white;
+}
+.message h3{
+  font-size: large;
+  margin-bottom: 60px;
+  font-weight: 300;
+  background-color: white;
+}
+.message1{
+  border: none;
+  border-bottom: 3px solid #45553b;
+  background-color: white;
+  height: 30px;
+  width: 100%;
+}
+.send{
+  background-color: white;
+  margin: 0px 30px 10px 25px;
+  height: 40px;
+  width: 100px;
+  padding: 0px 10px 10px 10px;
+  
+}
+.send button{
+  border-radius: 25px;
+  height: 40px;
+  width: 90%;
+  background-color: #45553b;
+  color: white;
+  font-size: larger;
+  border-style: none;
+}
+
+/* footer */
+.foot{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow:-1px -6px 20px 2px #92b07f;
+  height: 80px;
+  display: flex;
+  background-color: #B3D89C;
+  position:static;
+}
+.copyright{
+  display: flex;
+  background-color: #B3D89C;
+  align-items: center;
+  width: 340px;
+  text-align: center;
+  padding-left: 20px;
+  margin-right: 13%;
+}
+.link{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 15px;
+  margin-left: 30%;
+  width: 500px;
+  background-color: #B3D89C;
+
+}
+.number{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 9px;
+  margin: 10px;
+  background-color: #B3D89C;
+}
+.write{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 9px;
+  margin: 10px;
+  background-color: #B3D89C;
+}
+#follow{
+  text-align: center;
+  padding-bottom: 7px;
+  background-color: #B3D89C;
+}
+#contact2{
+  text-align: center;
+  padding-bottom: 5px;
+  background-color: #B3D89C;
+}
+#cont-number{
+  font-weight:400;
+  text-align: center;
+  padding-bottom: 5px;
+  background-color: #B3D89C;
+}
+#write{
+
+  text-align: center;
+  padding-bottom: 5px;
+  background-color: #B3D89C;
+}
+.write a{
+  font-weight: 400;
+  text-decoration: none;
+  background-color: #B3D89C;
+}
+.social-link{
+  display: flex;
+  background-color: #B3D89C;
+
+}
+.social-link a img {
+  background-color: #B3D89C;
+  width: 25px;
+
+}
+
+.social-link a{
+  background-color: #B3D89C;
+}
